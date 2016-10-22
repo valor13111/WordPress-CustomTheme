@@ -1,0 +1,15 @@
+/* This is going to be on the theme search, when people are looking for themes */
+
+Name: Simple On The Go
+
+Description: 300 characters MAX!
+
+URL: http://www.YOURNAME.complete_theme
+
+Author: YOUR NAME or COMPANY NAME
+
+/* This is very important, people will search and the tags will pop up for them */
+/* Go to theme look-up filters to see what tags should be here */
+Tags: mobile, simple, responsive, (also have column layout for tag, like multi-column or 2 columns),
+      (topics; like restaurants, sports, or popular plugins for the theme), search-engine friendly or SEO
+      Features: custom colors, backgrounds, headers, formats, etc..

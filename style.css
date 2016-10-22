@@ -1,0 +1,49 @@
+/*
+Theme Name: Minimalistic Mobile
+Author: Tyler Reed
+Author URl: http://www.example.com
+Description: A Minimalistic Website designed for a simple layout for mobile.  With this theme, you get support for Woocommerce, BuddyPress and because it is responsive, it looks beautiful on mobile devices, as well as your desktop and laptop computers!
+Version: 1.0
+Tags: mobile, responsive, multi-column, SEO
+*/
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+footer {
+	background: darkblue;
+	color: white;
+	text-align: center;
+	width: 100%;
+	min-height: 50px;
+	clear: both;
+}
