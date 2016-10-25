@@ -10,7 +10,7 @@
 	   <?php
     echo "<h2> Posts </h2>";
 
-    # array of posts
+    # ---- array of posts
      $args = array(
        'posts_per_page' => 3,
        'post_type' => 'post'
@@ -25,7 +25,7 @@
 
      echo "<h2> Pages </h2>";
 
-     # array of pages
+     # ---- array of pages
      $args = array(
        'posts_per_page' => 3,
        'post_type' => 'page'
