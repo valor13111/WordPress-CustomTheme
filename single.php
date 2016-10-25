@@ -21,11 +21,14 @@
 
       if (have_posts()) :
         while (have_posts()) : the_post();
+          # $content = substr(get_the_content(), 0, 100);
+          # this gets the first 100 characters of the post
+          # get_the_content returns a value, the_content() auto echos
           the_content();
         endwhile;
       endif;
 
-      # comments template 
+      # comments template
       comments_template();
 
      ?>
