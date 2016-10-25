@@ -39,6 +39,23 @@ Tags: mobile, responsive, multi-column, SEO
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 
+/* SEARCH FORM */
+.searchform input[type="submit"] {
+	background: darkblue;
+	border: navy 2px solid;
+	color: #FFF;
+	border-radius: 5px;
+}
+
+.searchform input[type="text"] {
+	background: lightblue;
+	padding: 3px;
+	color: #555;
+	border: #999 1px solid;
+	border-radius: 5px;
+}
+
+/* FOOTER */
 footer {
 	background: darkblue;
 	color: white;
