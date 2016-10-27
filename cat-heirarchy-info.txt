@@ -1,0 +1,7 @@
+Lowest - highest  Heirarchy
+
+index.php
+archive.php - list of all older posts
+category.php
+category-id.php (this means, if categories id is 5, make file called category-5.php)
+category-slug.php (this means, if category slug is cat, make file called category-cat.php)
