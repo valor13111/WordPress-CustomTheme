@@ -9,6 +9,7 @@
 	<div class="col span_1_of_3">
 
     <h1>Category: <?php echo single_cat_title(); ?></h1>
+     <!-- This sets publish date, the author and allows comments for each category -->
 	   <?php
       while ( have_posts() ) : the_post(); ?>
         <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
